@@ -1,0 +1,42 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude Terraform plan output files
+*.tfplan
+
+# Exclude backup files
+*.backup
+*.bak
+
+# Exclude temporary files
+*.tmp
+
+# Exclude any secrets or configuration overrides
+*.override.tf
+*.override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Exclude auto-generated files by Terraform providers
+.terraform.lock.hcl
+
+# Ignore sensitive files
+*.tfvars
+*.tfvars.json
+credentials.tfvars
+
+# Ignore editor specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore files related to Docker
+docker-compose.override.yml
